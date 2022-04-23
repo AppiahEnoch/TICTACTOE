@@ -1,0 +1,54 @@
+body {
+  background-color: aqua;
+}
+
+.header {
+  text-align: center;
+  color: blue;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  padding: 0px;
+  margin-bottom: 3em;
+}
+.btn button {
+  width: 3em;
+  height: 3em;
+  margin-top: 2px;
+  padding: 0px;
+  background-color: rebeccapurple;
+}
+.btn button:hover {
+  background-color: red;
+}
+
+.option {
+  margin-top: 5em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.option2 {
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
